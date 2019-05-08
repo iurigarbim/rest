@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link href="estilos/estilo.css" rel="stylesheet">
   <title>Escola Virtual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 </head>
 <body>
@@ -35,19 +36,19 @@ function maskCPF(cpf){
              <table width="100%">
                <tbody>
                  <tr>
-                   <td align="right">Matrícula: </td>
+                   <td align="right"><strong>Matricula: <b class="asterisco">*</b></strong></td>
                <td>
                 <input type="text" class="input-uni" name="mat" size="40" maxlength="40">
                    </td>
                  </tr>
                  <tr>
-                   <td align="right">Nome do Aluno: </td>
+                   <td align="right"><strong>Nome do Aluno: </strong><b class="asterisco">*</b></td>
                <td>
                 <input type="text" class="input-nome" name="Aluno" size="40" maxlength="40">
                    </td>
                  </tr>
                  <tr>
-                   <td align="right" >CPF: </td>
+                   <td align="right" ><strong>CPF: <b class="asterisco">*</b></strong></td>
                <td>
                 <input type="text" class="input-cpf" name="cpf" id="cpf" size="11" maxlength="11" onkeyup="maskCPF(cpf)"  >
                    </td>
@@ -78,7 +79,7 @@ function maskCPF(cpf){
                    </td>
                  </tr>
           <tr>
-            <td align="right">Nome da Mãe:</td>
+            <td align="right"><strong>Nome da Mãe:</strong><b class="asterisco"> *</b></td>
             <td>
               <input type="text" class="input-nome" name="mae" size="40" maxlength="30">
             </td>
@@ -100,7 +101,7 @@ function maskCPF(cpf){
                        </td>
             </tr>
              <tr>
-               <td align="right">Celular:</td>
+               <td align="right"><strong>Celular:<b class="asterisco"> *</b></strong></td>
       <td>
         
         <input type="text" class="input-telefone" name="cel" size="9" maxlength="9">
@@ -117,24 +118,21 @@ function maskCPF(cpf){
 	</tr>
 	<tr>
 	    <td>
-
-
-<h3>Dados para Acesso ao Sistema</h3>
+          <center>
+          <h1 class="h2-subtitle">Dados para Acesso ao Sistema</h1>
+        </center>
+<!-- <h3>Dados para Acesso ao Sistema</h3> -->
 	      <table border=0 width=100%>
 	        <tr valign=top>
 	          <td>
-
-
-
-
                 <tr>
-                  <td align="right"><span style="padding-left:20px">Login:</span></td>
+                  <td align="right"><span style="padding-left:20px">Login:<b class="asterisco">*</b></span></td>
                    <td>
                      <input type="text" class="input-uni" name="log" id="log" size="11" maxlength="11" >
                    </td>
                  </tr>
                   <tr>
-                   <td align="right">Senha:</td>
+                   <td align="right">Senha:<b class="asterisco">*</b></td>
                    <td>
                      <input type="password" name="pass" size="11" maxlength="11">
                    </td>
