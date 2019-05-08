@@ -120,3 +120,7 @@ body{
   .asterisco{
     color: red;
   }
+
+  .input-espaco{
+    padding: 250px;
+  }
